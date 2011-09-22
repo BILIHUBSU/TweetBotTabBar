@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6B0C676142AD81A00F24D54 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E6B0C675142AD81A00F24D54 /* LICENSE */; };
 		E6F3954013B989B100DF98A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F3953F13B989B100DF98A9 /* UIKit.framework */; };
 		E6F3954213B989B100DF98A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F3954113B989B100DF98A9 /* Foundation.framework */; };
 		E6F3954413B989B100DF98A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F3954313B989B100DF98A9 /* CoreGraphics.framework */; };
@@ -52,6 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6B0C675142AD81A00F24D54 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E6F3953B13B989B100DF98A9 /* TweetBotTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetBotTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F3953F13B989B100DF98A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6F3954113B989B100DF98A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -181,6 +183,7 @@
 				E6F3954813B989B100DF98A9 /* InfoPlist.strings */,
 				E6F3954B13B989B100DF98A9 /* TweetBotTabBar-Prefix.pch */,
 				E6F3954C13B989B100DF98A9 /* main.m */,
+				E6B0C675142AD81A00F24D54 /* LICENSE */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				E6F3962713BA366B00DF98A9 /* mentionsIcon@2x.png in Resources */,
 				E6F3962813BA366B00DF98A9 /* mentionsIconHighlighted.png in Resources */,
 				E6F3962913BA366B00DF98A9 /* mentionsIconHighlighted@2x.png in Resources */,
+				E6B0C676142AD81A00F24D54 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +433,7 @@
 				E6F3955E13B989B100DF98A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
