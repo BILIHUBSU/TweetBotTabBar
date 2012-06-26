@@ -71,10 +71,13 @@
         UIButton *b = [UIButton buttonWithType:UIButtonTypeCustom];
         b.frame = CGRectMake(buttonX, 2, buttonSize + extra, 38);
         UIImage *tabBarButtonBackground = [[UIImage imageNamed:@"tabBarButtonBackground"] stretchableImageWithLeftCapWidth:1 topCapHeight:0];
+        UIImage *tabBarButtonBackgroundHighlighted = [[UIImage imageNamed:@"tabBarButtonBackgroundHighlighted"] stretchableImageWithLeftCapWidth:1 topCapHeight:0];        
         [b setImage:[info icon] forState:UIControlStateNormal];
         [b setImage:[info highlightedIcon] forState:UIControlStateHighlighted];
         [b setImage:[info highlightedIcon] forState:UIControlStateSelected];
         [b setBackgroundImage:tabBarButtonBackground forState:UIControlStateNormal];
+        [b setBackgroundImage:tabBarButtonBackgroundHighlighted forState:UIControlStateHighlighted];
+        [b setBackgroundImage:tabBarButtonBackgroundHighlighted forState:UIControlStateSelected];
         
         [b addTarget:self action:@selector(touchDownForButton:) forControlEvents:UIControlEventTouchDown];
         [b addTarget:self action:@selector(touchUpForButton:) forControlEvents:UIControlEventTouchUpInside];
